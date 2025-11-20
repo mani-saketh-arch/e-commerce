@@ -195,14 +195,14 @@ app.include_router(
 )
 
 
-from app.routes.admin import firebase_auth  
+#from app.routes.admin import firebase_auth  
 
 # Include Firebase auth routes
-app.include_router(
-    firebase_auth.router,
-    prefix="/api/admin/auth",
-    tags=["Admin Firebase Authentication"]
-)
+#app.include_router(
+ #   firebase_auth.router,
+ #   prefix="/api/admin/auth",
+ #   tags=["Admin Firebase Authentication"]
+#)
 # ============================================
 # API SUMMARY
 # ============================================
